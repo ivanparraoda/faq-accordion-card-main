@@ -34,18 +34,19 @@ body{
 
 .hero{
     text-align: center;
-    height: 200px;
+    height: 155px;
+    width: 100%;
 }
 
 .hero img{
     position: relative;
    top: -182px;
-    width: 400px;
+    width: 100%;
 }
 
 .pattern img{
     position: relative;
-   top: -300px;
+   top: -315px;
    
 }
 
