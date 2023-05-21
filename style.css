@@ -73,7 +73,7 @@ body{
     background-color: #ffffff;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 18px 25px;
 
     width: 100%;
     border: none;
@@ -115,7 +115,7 @@ body{
     padding: 0 18px;
     display: none;
     background-color: white;
-    width: 380px;
+    width: 350px;
     overflow: hidden;
   }
 
@@ -233,21 +233,31 @@ body{
    
 
     .heros img{
-        width: 100%;
-        height: auto;
-        top: -200px;
-       left: -5px;
-        position: relative;
-        z-index: 4;
-        object-position: 20% 10%;
+        
+        top: -420px;
+       left: 103px;
+        
     }
-    
 
-    .accordion-items{
-        background-color: red;
+    .pattern img {
+        
+        top: -505px;
+       left: 104px;
     }
-    
  
 
 
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 570px){
+    
+
+    .heros img{
+        
+        top: -166px;
+       left: -5px;
+        
+    }
+    
 }
